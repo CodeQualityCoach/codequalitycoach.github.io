@@ -1,6 +1,7 @@
 theme: jekyll-theme-hacker
 
 plugins:
+  - jekyll-archives
   - jekyll-coffeescript
   - jekyll-default-layout
   - jekyll-gist
@@ -83,14 +84,10 @@ exclude:
   - docker-compose.yml
 
 jekyll-archives:
-  #enabled: [categories, tags]
-  enabled: []
+  enabled: all
   layouts:
     category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
