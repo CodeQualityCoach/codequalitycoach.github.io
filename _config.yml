@@ -9,6 +9,7 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
+#  - jekyll-font-awesome-sass
 
 title: Code Quality Blog
 tagline: Code Quality Coach and Black-Belt Judoka 
@@ -17,19 +18,11 @@ description: Blog of a passionated judoka and software developer.
 lang: de-DE
 timezone: Europe/Berlin
 
-github:
-  username: ThomasLey
-twitter:
-  username: CleanCodeCoach
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Thomas Ley
   email: blog@codequalitycoach.de
-  links:
-    - https://twitter.com/CleanCodeCoach
-    - https://github.com/ThomasLey
-    - https://www.linkedin.com/in/thomas-ley/
 
 paginate: 10
 

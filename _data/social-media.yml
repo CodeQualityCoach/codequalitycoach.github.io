@@ -1,0 +1,23 @@
+email:
+  id: 'blog@codequalitycoach.de'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fas fa-envelope'
+
+linkedin:
+  id: 'thomas-ley'
+  href: 'https://www.linkedin.com/in/'
+  title: 'Facebook'
+  fa-icon: 'fab fa-facebook-f'
+
+twitter:
+  id: 'CleanCodeCoach'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fab fa-twitter'
+
+github:
+  id: 'ThomasLey'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fab fa-github'

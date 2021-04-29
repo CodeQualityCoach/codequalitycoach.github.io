@@ -18,7 +18,7 @@ order: 100
     Rosseler Str. 29
     51570 Windeck
 
-# Haftungsausschluss:#
+# Haftungsausschluss
 
 ## Haftung für Inhalte
 
