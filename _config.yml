@@ -1,7 +1,6 @@
 theme: jekyll-theme-hacker
 
 plugins:
-  - jekyll-archives
   - jekyll-coffeescript
   - jekyll-default-layout
   - jekyll-gist
@@ -15,7 +14,7 @@ plugins:
 title: Code Quality Blog
 tagline: Code Quality Coach and Black-Belt Judoka 
 description: Blog of a passionated judoka and software developer.
-
+avatar: https://avatars.githubusercontent.com/u/46560885?s=400&u=2bead4971162c936e23ffb77d27f876ebcfd903b&v=4
 lang: de-DE
 timezone: Europe/Berlin
 
@@ -82,12 +81,3 @@ compress_html:
 
 exclude:
   - docker-compose.yml
-
-jekyll-archives:
-  enabled: all
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/

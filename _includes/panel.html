@@ -26,22 +26,22 @@
 
   {% endif %}
 
+<!--
   {% include trending-tags.html %}
-
   {% if trending_tags.size > 0 %}
     <div id="access-tags">
       <span>{{- site.data.label.panel.trending_tags | default: 'Trending Tags' -}}</span>
       <div class="d-flex flex-wrap mt-3 mb-1 mr-3">
 
       {% for tag_name in trending_tags %}
-        {% assign url = tag_name | slugify | url_encode | prepend: "/tags/" | append: "/" %}
+        {% assign url = tag_name | slugify | url_encode | prepend: "/tag/" | append: "/" %}
         <a class="post-tag" href="{{ url | relative_url }}">{{ tag_name }}</a>
       {% endfor %}
 
       </div>
     </div>
   {% endif %}
-  </div> <!-- .access -->
+  </div>--><!-- .access -->
 
   {% if include.toc %}
     <!-- BS-toc.js will be loaded at medium priority -->
