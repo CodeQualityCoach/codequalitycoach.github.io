@@ -13,7 +13,7 @@ Recently, I installed `Powershell 7` and was using it for a while. After setting
 
 This is a little bit annoying because the module is signed so it should work. Powershell shows the following error message.
 
-![Powershell 7 Error](2021-06-28-powershell_PSReadLine-certificate-issue_01.png)
+![Powershell 7 Error](/assets/posts/2021-06-28-powershell_PSReadLine-certificate-issue_01.png)
 
 ## Trust the Publisher
 
@@ -21,8 +21,8 @@ To trust the publisher, the certificate must be added to users or machines certi
 
 The certificate can be found in `C:\program files\powershell\7\Modules\PSReadLine\PSReadLine.cat`. With opening the file, select `View Signature` and click `View Certificate`. This dialogue provides the option `Install Certificate` to the "Trusted Publishers".
 
-![Install Certificate](2021-06-28-powershell_PSReadLine-certificate-issue_03.png)
+![Install Certificate](/assets/posts/2021-06-28-powershell_PSReadLine-certificate-issue_03.png)
 
 After adding the certificate, Powershell loads the module without any questions.
 
-![Powershell 7 Is Happy](2021-06-28-powershell_PSReadLine-certificate-issue_02.png)
+![Powershell 7 Is Happy](/assets/posts/2021-06-28-powershell_PSReadLine-certificate-issue_02.png)
