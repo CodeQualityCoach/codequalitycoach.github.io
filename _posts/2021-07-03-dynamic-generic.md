@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Dynamically create concrete generic based on parameter
+title: Dynamically create generic using reflection
 categories: [EN, Testing, Snippet]
-tags: [.NET, Code, Testing, Generics]
+tags: [.NET, Code, Testing, Generics, Reflection]
 ---
 
 A long time ago I created a class which helps creating a sut for unit testing. This class is generic and has the type of the sut as generic parameter. 
