@@ -5,6 +5,11 @@ categories: [EN, Testing, Snippet]
 tags: [.NET, Code, Testing]
 ---
 
+*NUnit error message on data-driven test: `Test` is Inconclusive*
+
+*ReSharper Test Runner warning: Element `Test` was left pending after its run completion.*
+
+
 Recently I was doing some testing and trying to check if all classes have a corresponding test class. Therefore I used data-driven NUnit tests, which uses 
 a list of all classes in non-test assemblies.
 
